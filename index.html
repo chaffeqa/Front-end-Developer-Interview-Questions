@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Front-end-developer-interview-questions by h5bp</title>
+    <title>Front-end-developer-interview-questions by chaffeqa</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -18,38 +18,40 @@
         <h1>Front-end-developer-interview-questions</h1>
         <p>A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.</p>
 
-        <p class="view"><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions">View the Project on GitHub <small>h5bp/Front-end-Developer-Interview-Questions</small></a></p>
+        <p class="view"><a href="https://github.com/chaffeqa/Front-end-Developer-Interview-Questions">View the Project on GitHub <small>chaffeqa/Front-end-Developer-Interview-Questions</small></a></p>
 
 
         <ul>
-          <li><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions">View On <strong>GitHub</strong></a></li>
+          <li><a href="https://github.com/chaffeqa/Front-end-Developer-Interview-Questions/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/chaffeqa/Front-end-Developer-Interview-Questions/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/chaffeqa/Front-end-Developer-Interview-Questions">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
       <section>
         <h1>
-<a id="front-end-job-interview-questions" class="anchor" href="#front-end-job-interview-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Front-end Job Interview Questions</h1>
+<a id="front-end-job-interview-questions" class="anchor" href="#front-end-job-interview-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Front-end Job Interview Questions</h1>
 
 <p>This file contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.</p>
 
 <p><strong>Note:</strong> Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.</p>
 
 <h2>
-<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Table of Contents</h2>
+<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Table of Contents</h2>
 
 <ol>
 <li><a href="#general-questions">General Questions</a></li>
 <li><a href="#html-questions">HTML Questions</a></li>
 <li><a href="#css-questions">CSS Questions</a></li>
 <li><a href="#js-questions">JS Questions</a></li>
+<li><a href="#testing-questions">Testing Questions</a></li>
+<li><a href="#performance-questions">Performance Questions</a></li>
 <li><a href="#network-questions">Network Questions</a></li>
 <li><a href="#coding-questions">Coding Questions</a></li>
 <li><a href="#fun-questions">Fun Questions</a></li>
 </ol>
 
 <h2>
-<a id="getting-involved" class="anchor" href="#getting-involved" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Involved</h2>
+<a id="getting-involved" class="anchor" href="#getting-involved" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Involved</h2>
 
 <ol>
 <li><a href="#contributors">Contributors</a></li>
@@ -58,7 +60,7 @@
 </ol>
 
 <h4>
-<a id="general-questions" class="anchor" href="#general-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>General Questions:</h4>
+<a id="general-questions" class="anchor" href="#general-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General Questions:</h4>
 
 <ul>
 <li>What did you learn yesterday/this week?</li>
@@ -85,14 +87,15 @@
 <li>What is Flash of Unstyled Content? How do you avoid FOUC?</li>
 <li>Explain what ARIA and screenreaders are, and how to make a website accessible.</li>
 <li>Explain some of the pros and cons for CSS animations versus JavaScript animations.</li>
+<li>What does CORS stand for and what issue does it address?</li>
 </ul>
 
 <h4>
-<a id="html-questions" class="anchor" href="#html-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>HTML Questions:</h4>
+<a id="html-questions" class="anchor" href="#html-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTML Questions:</h4>
 
 <ul>
 <li>What does a <code>doctype</code> do?</li>
-<li>What's the difference between standards mode and quirks mode?</li>
+<li>What's the difference between full standards mode, almost standards mode and quirks mode?</li>
 <li>What's the difference between HTML and XHTML?</li>
 <li>Are there any problems with serving pages as <code>application/xhtml+xml</code>?</li>
 <li>How do you serve a page with content in multiple languages?</li>
@@ -107,10 +110,10 @@
 </ul>
 
 <h4>
-<a id="css-questions" class="anchor" href="#css-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>CSS Questions:</h4>
+<a id="css-questions" class="anchor" href="#css-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CSS Questions:</h4>
 
 <ul>
-<li>What is the difference between classes and ID's in CSS?</li>
+<li>What is the difference between classes and IDs in CSS?</li>
 <li>What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?</li>
 <li>Describe Floats and how they work.</li>
 <li>Describe z-index and how stacking context is formed.</li>
@@ -154,7 +157,7 @@
 </ul>
 
 <h4>
-<a id="js-questions" class="anchor" href="#js-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>JS Questions:</h4>
+<a id="js-questions" class="anchor" href="#js-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JS Questions:</h4>
 
 <ul>
 <li>Explain event delegation</li>
@@ -167,7 +170,7 @@
 <li>What needs to be changed to properly make it an IIFE?</li>
 </ul>
 </li>
-<li>What's the difference between a variable that is: <code>null</code>, <code>undefined</code> or <code>undeclared</code>?
+<li>What's the difference between a variable that is: <code>null</code>, <code>undefined</code> or undeclared?
 
 <ul>
 <li>How would you go about checking for any of these states?</li>
@@ -182,8 +185,9 @@
 <li>Explain <code>Function.prototype.bind</code>.</li>
 <li>When would you use <code>document.write()</code>?</li>
 <li>What's the difference between feature detection, feature inference, and using the UA string?</li>
-<li>Explain AJAX in as much detail as possible.</li>
-<li>Explain how JSONP works (and how it's not really AJAX).</li>
+<li>Explain Ajax in as much detail as possible.</li>
+<li>What are the advantages and disadvantages of using Ajax?</li>
+<li>Explain how JSONP works (and how it's not really Ajax).</li>
 <li>Have you ever used JavaScript templating?
 
 <ul>
@@ -194,18 +198,18 @@
 <li>Describe event bubbling.</li>
 <li>What's the difference between an "attribute" and a "property"?</li>
 <li>Why is extending built-in JavaScript objects not a good idea?</li>
-<li>Difference between document load event and document ready event?</li>
+<li>Difference between document load event and document DOMContentLoaded event?</li>
 <li>What is the difference between <code>==</code> and <code>===</code>?</li>
 <li>Explain the same-origin policy with regards to JavaScript.</li>
 <li>Make this work:</li>
 </ul>
 
-<div class="highlight highlight-javascript"><pre>duplicate([<span class="pl-c1">1</span>,<span class="pl-c1">2</span>,<span class="pl-c1">3</span>,<span class="pl-c1">4</span>,<span class="pl-c1">5</span>]); <span class="pl-c">// [1,2,3,4,5,1,2,3,4,5]</span></pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-en">duplicate</span>([<span class="pl-c1">1</span>,<span class="pl-c1">2</span>,<span class="pl-c1">3</span>,<span class="pl-c1">4</span>,<span class="pl-c1">5</span>]); <span class="pl-c">// [1,2,3,4,5,1,2,3,4,5]</span></pre></div>
 
 <ul>
 <li>Why is it called a Ternary expression, what does the word "Ternary" indicate?</li>
 <li>What is <code>"use strict";</code>? what are the advantages and disadvantages to using it?</li>
-<li>Create a for loop that iterates up to <code>100</code> while outputting <strong>"fizz"</strong> at multiples of <code>3</code>, <code>"buzz"</code> at multiples of <code>5</code> and <strong>"fizzbuzz"</strong> at multiples of <code>3</code> and <code>5</code>
+<li>Create a for loop that iterates up to <code>100</code> while outputting <strong>"fizz"</strong> at multiples of <code>3</code>, <strong>"buzz"</strong> at multiples of <code>5</code> and <strong>"fizzbuzz"</strong> at multiples of <code>3</code> and <code>5</code>
 </li>
 <li>Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?</li>
 <li>Why would you use something like the <code>load</code> event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?</li>
@@ -213,10 +217,28 @@
 <li>What is the extent of your experience with Promises and/or their polyfills?</li>
 <li>What are the pros and cons of using Promises instead of callbacks?</li>
 <li>What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?</li>
+<li>What tools and techniques do you use debugging JavaScript code?</li>
+<li>What language constructions do you use for iterating over object properties and array items?</li>
+<li>Explain the difference between mutable and immutable objects.
+
+<ul>
+<li>What is an example of an immutable object in JavaScript?</li>
+<li>What are the pros and cons of immutability?</li>
+<li>How can you achieve immutability in your own code?</li>
+</ul>
+</li>
+<li>Explain the difference between synchronous and asynchronous functions.</li>
+<li>What is event loop?
+
+<ul>
+<li>What is the difference between call stack and task queue?</li>
+</ul>
+</li>
+<li>Explain the differences on the usage of <code>foo</code> between <code>function foo() {}</code> and <code>var foo = function() {}</code> </li>
 </ul>
 
 <h4>
-<a id="testing-questions" class="anchor" href="#testing-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing Questions:</h4>
+<a id="testing-questions" class="anchor" href="#testing-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Testing Questions:</h4>
 
 <ul>
 <li>What are some advantages/disadvantages to testing your code?</li>
@@ -226,7 +248,7 @@
 </ul>
 
 <h4>
-<a id="performance-questions" class="anchor" href="#performance-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Performance Questions:</h4>
+<a id="performance-questions" class="anchor" href="#performance-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Performance Questions:</h4>
 
 <ul>
 <li>What tools would you use to find a performance bug in your code?</li>
@@ -235,7 +257,7 @@
 </ul>
 
 <h4>
-<a id="network-questions" class="anchor" href="#network-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Network Questions:</h4>
+<a id="network-questions" class="anchor" href="#network-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Network Questions:</h4>
 
 <ul>
 <li>Traditionally, why has it been better to serve site assets from multiple domains?</li>
@@ -252,70 +274,79 @@
 <li>X-Frame-Options</li>
 </ul>
 </li>
-<li>What are HTTP actions? List all HTTP actions that you know, and explain them.</li>
+<li>What are HTTP methods? List all HTTP methods that you know, and explain them.</li>
 </ul>
 
 <h4>
-<a id="coding-questions" class="anchor" href="#coding-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Coding Questions:</h4>
+<a id="coding-questions" class="anchor" href="#coding-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Coding Questions:</h4>
 
 <p><em>Question: What is the value of <code>foo</code>?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-c1">10</span> <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>20<span class="pl-pds">'</span></span>;</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-c1">10</span> <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>20<span class="pl-pds">'</span></span>;</pre></div>
 
 <p><em>Question: How would you make this work?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-c1">add</span>(<span class="pl-c1">2</span>, <span class="pl-c1">5</span>); <span class="pl-c">// 7</span>
-<span class="pl-c1">add</span>(<span class="pl-c1">2</span>)(<span class="pl-c1">5</span>); <span class="pl-c">// 7</span></pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-en">add</span>(<span class="pl-c1">2</span>, <span class="pl-c1">5</span>); <span class="pl-c">// 7</span>
+<span class="pl-en">add</span>(<span class="pl-c1">2</span>)(<span class="pl-c1">5</span>); <span class="pl-c">// 7</span></pre></div>
 
 <p><em>Question: What value is returned from the following statement?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-s"><span class="pl-pds">"</span>i'm a lasagna hog<span class="pl-pds">"</span></span>.<span class="pl-c1">split</span>(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>).<span class="pl-c1">reverse</span>().<span class="pl-c1">join</span>(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>);</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-s"><span class="pl-pds">"</span>i'm a lasagna hog<span class="pl-pds">"</span></span>.<span class="pl-c1">split</span>(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>).<span class="pl-c1">reverse</span>().<span class="pl-c1">join</span>(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>);</pre></div>
 
 <p><em>Question: What is the value of <code>window.foo</code>?</em></p>
 
-<div class="highlight highlight-javascript"><pre>( <span class="pl-c1">window</span>.foo <span class="pl-k">||</span> ( <span class="pl-c1">window</span>.foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span> ) );</pre></div>
+<div class="highlight highlight-source-js"><pre>( <span class="pl-c1">window</span>.<span class="pl-smi">foo</span> <span class="pl-k">||</span> ( <span class="pl-c1">window</span>.<span class="pl-smi">foo</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span> ) );</pre></div>
 
 <p><em>Question: What is the outcome of the two alerts below?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello<span class="pl-pds">"</span></span>;
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hello<span class="pl-pds">"</span></span>;
 (<span class="pl-k">function</span>() {
   <span class="pl-k">var</span> bar <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span> World<span class="pl-pds">"</span></span>;
-  <span class="pl-c1">alert</span>(foo <span class="pl-k">+</span> bar);
+  <span class="pl-en">alert</span>(foo <span class="pl-k">+</span> bar);
 })();
-<span class="pl-c1">alert</span>(foo <span class="pl-k">+</span> bar);</pre></div>
+<span class="pl-en">alert</span>(foo <span class="pl-k">+</span> bar);</pre></div>
 
 <p><em>Question: What is the value of <code>foo.length</code>?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> [];
-foo.<span class="pl-c1">push</span>(<span class="pl-c1">1</span>);
-foo.<span class="pl-c1">push</span>(<span class="pl-c1">2</span>);</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> [];
+<span class="pl-smi">foo</span>.<span class="pl-c1">push</span>(<span class="pl-c1">1</span>);
+<span class="pl-smi">foo</span>.<span class="pl-c1">push</span>(<span class="pl-c1">2</span>);</pre></div>
 
 <p><em>Question: What is the value of <code>foo.x</code>?</em></p>
 
-<div class="highlight highlight-javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> {n<span class="pl-k">:</span> <span class="pl-c1">1</span>};
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> {n<span class="pl-k">:</span> <span class="pl-c1">1</span>};
 <span class="pl-k">var</span> bar <span class="pl-k">=</span> foo;
-foo.<span class="pl-c1">x</span> <span class="pl-k">=</span> foo <span class="pl-k">=</span> {n<span class="pl-k">:</span> <span class="pl-c1">2</span>};</pre></div>
+<span class="pl-smi">foo</span>.<span class="pl-c1">x</span> <span class="pl-k">=</span> foo <span class="pl-k">=</span> {n<span class="pl-k">:</span> <span class="pl-c1">2</span>};</pre></div>
+
+<p><em>Question: What does the following code print?</em></p>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">'</span>one<span class="pl-pds">'</span></span>);
+<span class="pl-c1">setTimeout</span>(<span class="pl-k">function</span>() {
+  <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">'</span>two<span class="pl-pds">'</span></span>);
+}, <span class="pl-c1">0</span>);
+<span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">'</span>three<span class="pl-pds">'</span></span>);</pre></div>
 
 <h4>
-<a id="fun-questions" class="anchor" href="#fun-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fun Questions:</h4>
+<a id="fun-questions" class="anchor" href="#fun-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fun Questions:</h4>
 
 <ul>
 <li>What's a cool project that you've recently worked on?</li>
 <li>What are some things you like about the developer tools you use?</li>
+<li>Who inspires you in the front-end community?</li>
 <li>Do you have any pet projects? What kind?</li>
 <li>What's your favorite feature of Internet Explorer?</li>
 <li>How do you like your coffee?</li>
 </ul>
 
 <h4>
-<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributors:</h4>
+<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributors:</h4>
 
 <p>This document started in 2009 as a collaboration of <a href="https://twitter.com/paul_irish">@paul_irish</a> <a href="https://twitter.com/bentruyman">@bentruyman</a> <a href="https://twitter.com/cowboy">@cowboy</a> <a href="https://twitter.com/ajpiano">@ajpiano</a>  <a href="https://twitter.com/slexaxton">@SlexAxton</a> <a href="https://twitter.com/boazsender">@boazsender</a> <a href="https://twitter.com/miketaylr">@miketaylr</a> <a href="https://twitter.com/vladikoff">@vladikoff</a> <a href="https://twitter.com/gf3">@gf3</a> <a href="https://twitter.com/jon_neal">@jon_neal</a> <a href="https://twitter.com/sambreed">@sambreed</a> and <a href="https://twitter.com/iansym">@iansym</a>.</p>
 
 <p>It has since received contributions from over <a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/graphs/contributors">100 developers</a>.</p>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/h5bp">h5bp</a></p>
+        <p>This project is maintained by <a href="https://github.com/chaffeqa">chaffeqa</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
