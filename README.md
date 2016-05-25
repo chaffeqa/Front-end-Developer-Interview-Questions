@@ -129,3 +129,11 @@ var d = (function f(f, d){
 })(function(){ return 1; });
 console.log(d)
 ```
+
+*Question: What is the difference between `ng-show/ng-hide` and `ng-if` directives?*
+
+*Question: How do you disable a `$watch()` call?*
+
+*Question: What is the difference between one-way binding and two-way binding?*
+
+*Question: Build a singleton service and a non-signleton service*
